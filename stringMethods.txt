@@ -1,0 +1,75 @@
+
+
+
+* `lower()`: 
+      -Converts all characters to lowercase.
+
+* `upper()`:
+      -Converts all characters to uppercase.
+
+* `capitalize()`:
+       -Capitalizes only the first character of the string.
+
+* `title()`:
+ Capitalizes the first letter of every word.
+
+* `swapcase()`:
+ Flips lowercase to uppercase and vice versa.
+
+* `count(sub)`:
+ Returns the number of times a substring occurs.
+
+* `find(sub)`:
+ Returns the lowest index where the substring is found (returns `-1` if not found).
+
+* `index(sub)`:
+      - Like `find()`, but raises a `ValueError` if the substring isn't found.
+
+* `startswith(prefix)`:
+      - Returns `True` if the string starts with the specified value.
+
+* `endswith(suffix)`:
+      - Returns `True` if the string ends with the specified value.
+
+* `strip()`:
+      - Removes whitespace (or specific characters) from both ends.
+
+* `lstrip()` / `rstrip()`:
+      - Removes whitespace from the left or right side only.
+
+* `replace(old, new)`:
+      - Replaces a specific phrase with another phrase.
+
+* `zfill(width)`:
+      - Adds zeros at the beginning of the string until it reaches a specified length.
+
+* `center(width)`:
+      - Centers the string within a specified width using a fill character (default is space).
+
+* `split(separator)`:
+      - Breaks the string into a **list** based on the separator.
+
+* `join(iterable)`
+      -: Takes all items in an iterable (like a list) and joins them into one string.
+
+* `splitlines()`:
+      -Splits a string at line breaks and returns a list.
+
+| `isalnum()` |
+      - All characters are alphanumeric (letters and numbers). |
+
+| `isalpha()` |
+      - All characters are in the alphabet. |
+
+| `isdigit()` |
+      - All characters are digits. |
+
+| `islower()` |
+      - All characters are lowercase. |
+
+| `isspace()` |
+      - The string consists only of whitespace. |
+
+| `istitle()` |
+      - The string follows title case rules. |
+
