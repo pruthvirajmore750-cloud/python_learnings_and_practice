@@ -91,4 +91,4 @@ def qa10(lst):
         if lst[i] == 7:
             print(i)
             return
-    print("Not found")
+    print("Not found") 
